@@ -7,6 +7,7 @@
     /* Colores de marca */
     --blue: #0041f2;       /* azul principal de Umatronix */
     --blue-deep: #0041f2;  /* azul para bordes y detalles */
+    --yellow: #f3d700;     /* amarillo principal del branding */
     --ink: #333333;          /* Texto principal (negro suave) */
     --muted: #4a4a4a;        /* Texto secundario */
     --line: #e5e5e5;         /* Bordes */
@@ -15,6 +16,11 @@
     --danger: #b42318;       /* Acciones de eliminar */
     --shadow: 0 10px 30px rgba(0, 0, 0, .08); /* Sombra de ventanas */
     --text-outline: rgba(0, 0, 0, 0.7);
+
+    /* Fondos de la interfaz */
+    --bg-app: #f5f7fb;
+    --bg-glow-1: rgba(0, 65, 242, 0.12);
+    --bg-glow-2: rgba(243, 215, 0, 0.18);
 
     /* Personalización extra */
     --font-main: "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive;
@@ -35,7 +41,10 @@ html{
 body{
     margin:0;
     background-color:var(--page);
-    background-image:none;
+    background-image:
+        radial-gradient(circle at top left, var(--bg-glow-1), transparent 28%),
+        radial-gradient(circle at bottom right, var(--bg-glow-2), transparent 30%),
+        linear-gradient(135deg, var(--bg-app) 0%, #edf3ff 35%, #f7f7f7 100%);
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -865,3 +874,4 @@ button{
     font-weight:700;
     color:var(--ink)
 }
+
