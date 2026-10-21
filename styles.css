@@ -5,8 +5,8 @@
     ========================================================= */
 :root {
     /* Colores de marca */
-    --blue: #9fb8ee5;       /* azul principal de Umatronix */
-    --blue-deep: #9fb8ee;  /* azul para bordes y detalles */
+    --blue: #0041f2;       /* azul principal de Umatronix */
+    --blue-deep: #0041f2;  /* azul para bordes y detalles */
     --ink: #333333;          /* Texto principal (negro suave) */
     --muted: #4a4a4a;        /* Texto secundario */
     --line: #e5e5e5;         /* Bordes */
