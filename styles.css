@@ -5,8 +5,8 @@
     ========================================================= */
 :root {
     /* Colores de marca */
-    --yellow: #0041f2;       /* Amarillo principal de Umatronix */
-    --yellow-deep: #2600ff;  /* Amarillo para bordes y detalles */
+    --yellow: #5a8bf5;       /* Amarillo principal de Umatronix */
+    --yellow-deep: #5a8bf5;  /* Amarillo para bordes y detalles */
     --ink: #333333;          /* Texto principal (negro suave) */
     --muted: #4a4a4a;        /* Texto secundario */
     --line: #e5e5e5;         /* Bordes */
